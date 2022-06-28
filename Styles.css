@@ -1,0 +1,116 @@
+
+        body {
+            margin: 0px;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: 'Roboto';
+            background-color: #f7ede2;      
+        }
+        body.home-page{
+            padding: 25px;
+            background-color: #f7ede2;
+        }
+        body.home-page .container{
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 300px;
+            border-radius: 150px;
+            /* margin:10px; */
+        }
+
+        .hero-section {
+            background-color: aquamarine;
+            color: #457b9d;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* .Hobbies-section,.Favorite-images-section{
+            border-top: 5px solid #ff9f1c;
+        } */
+
+        .top-divider {
+            border-top: 5px solid #ff9f1c;
+        }
+
+        /* .name{
+            color: #457b9d;
+            font-family: 'Times New Roman', Times, serif;
+        } */
+
+        .image-list-item {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .img-resolution {
+            height: 400px;
+            width: 400px;
+        }
+
+        .img-list {
+            text-align: center;
+            font-weight: bold;
+        }
+        .education-table {
+            width: 100%;
+            text-align: left;
+            border: 1px solid black;
+        }
+        .education-table td{
+            border: 1px solid lightgray;
+        }
+        .about-me-link{
+            font-size: 30px;  
+            text-decoration: none;
+            color: blue;
+            /* border: 3px solid brown;
+            padding: 15px;
+            margin-top: 20px;
+            width: 150px;    
+            display: block;  */
+        }
+        
+        .link-container:hover{
+            background-color: white;
+        }
+        .link-container:hover .about-me-link{
+            background-color: white;
+        }
+        .link-container{
+            border: 3px solid aquamarine;
+            padding: 15px;
+            margin-top: 40px;
+            margin: auto;
+            width: 150px;
+        }
+        .hero-heading{
+            font-size: 50px;
+        }
+        .welcome-message{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .designation {
+            font-style: italic;
+        }
+
+        .about-class {
+            background-color: #e5e5e5;
+        }
+
+        .about-content {
+            font-style: italic;
+            line-height: 27px;
+        }
+
+        .spaced-container {
+            margin: 70px;
+            /* margin-top: 30px; */
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+   
